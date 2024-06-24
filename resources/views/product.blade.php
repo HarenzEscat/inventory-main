@@ -63,7 +63,6 @@
 <body>
     <div class="sidebar">
     <img src="{{asset('css/logoo.jpg')}}" alt="" width="150" height="150" style="vertical-align:center">
-        <a href="#">DASHBOARD</a>
         <a href="#">STUDENT LIST</a>
         <a href="#">EVALUATION FORM</a>
         <a href="#">FACULTY/OFFICE</a>

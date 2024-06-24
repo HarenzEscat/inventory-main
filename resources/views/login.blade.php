@@ -5,7 +5,7 @@
     <style>
         h1{
             text-align: center;
-            font-family: Algerian; 
+            font-family: italic bold; 
             font-size: 100px;
             padding-top: 1rem;
             padding-bottom: 1rem;
@@ -99,7 +99,7 @@
         
     </style>
 
-    <h1>Authentication Page</h1>
+    <h1>LogIn Page</h1>
     
 
     <form action="{{route('login.submit')}}" method="post">
