@@ -19,7 +19,6 @@
             background-color: #2A91A9;
             position: fixed;
             height: 100%;
-            padding-top: 15px;
         }
         .sidebar a {
             display: block;

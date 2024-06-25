@@ -124,5 +124,5 @@
 @endsection
 
 @section('title')
-    Authentication Page
+    Login Page
 @endsection
