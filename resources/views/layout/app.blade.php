@@ -74,8 +74,15 @@
             <div class="logo">Logo</div>
             <div class="nav">
                 <ul>
-                    <li><a href="{{ route('product') }}">Evaluation</a></li>
-                    
+                    <li><a href="{{ route('evaluation') }}">Evaluation</a></li>
+            <li><a href="#">STUDENT LIST</a></li>
+            <li><a href="#">EVALUATION FORM</a></li>
+            <li><a href="#">FACULTY/OFFICE</a></li>
+            <li><a href="#">CALENDAR</a></li>
+            <li><a href="#">EVALUATION HISTORY</a></li>
+            <li><a href="#">MESSAGE</a></li>
+            <li><a href="#">SETTINGS</a></li>
+   
 
                     @if(auth()->check())
                     <li><a href="{{route('logout')}}">Log Out</a></li>
