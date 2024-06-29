@@ -7,7 +7,7 @@
             text-align: center;
             font-family: italic bold; 
             font-size: 100px;
-            padding-top: 1rem;
+            padding-top: 15rem;
             padding-bottom: 1rem;
         }
 
@@ -78,7 +78,7 @@
         }
 
         .bn5:active:after{
-            background: transparent;
+             background-color: #84C7F2;
         }
 
         .bn5:hover:before{
