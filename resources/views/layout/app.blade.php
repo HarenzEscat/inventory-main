@@ -78,6 +78,7 @@
             <div class="logo">Logo</div>
             <div class="nav">
                 <ul>
+  
                     <li class="nav-item"><a class="nav-link" href="{{ route('students.index') }}">Student List</a</li>
                     
                     <li><a href="#">Evaluation Form</a></li>

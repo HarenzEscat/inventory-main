@@ -7,7 +7,7 @@
             text-align: center;
             font-family: italic bold; 
             font-size: 100px;
-            padding-top: 15rem;
+            padding-top: 1rem;
             padding-bottom: 1rem;
         }
 

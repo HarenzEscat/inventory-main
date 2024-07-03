@@ -28,9 +28,9 @@ Route::get('/',[EvaluationController::class,'index'])->middleware('auth')->name(
 //Route::get('/',[StudentController::class,'index'])->middleware('auth')->name('student');
 
 
-Route::get('/students', [StudentController::class, 'index'])->name('students.index');
-Route::get('/students/create', [StudentController::class, 'create'])->name('students.create');
-Route::post('/students', [StudentController::class, 'store'])->name('students.store');
+Route::get('/students', [StudentController::class, 'index'])->middleware('auth')->name('students.index');
+Route::get('/students/create', [StudentController::class, 'create'])->middleware('auth')->name('students.create');
+Route::post('/students', [StudentController::class, 'store'])->middleware('auth')->name('students.store');
 
 
 

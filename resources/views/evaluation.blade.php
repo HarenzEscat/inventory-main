@@ -31,6 +31,7 @@
     .dashboard-welcome {
         text-align: center;
         margin: 20px 0;
+        font-style: italic;
     }
     .stats {
         display: flex;
